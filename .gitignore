@@ -1,0 +1,29 @@
+# .gitignore
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# --- Environment / Secrets ---
+.env
+
+# --- Database ---
+bank_stocks.db
+
+# --- Local Parquet Export (regenerated on every run) ---
+datalake_export/
+
+# --- Power BI ---
+*.pbix
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editor ---
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+# requirements.txt
+pandas==2.2.0
+numpy==1.26.4
+yfinance==0.2.36
+SQLAlchemy==2.0.25
+matplotlib==3.8.2
+seaborn==0.13.2
+requests==2.31.0

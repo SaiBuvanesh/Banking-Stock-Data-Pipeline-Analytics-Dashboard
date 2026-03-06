@@ -1,0 +1,1809 @@
+{
+	"name": "BIBB Dark Purple",
+	"$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.149.json",
+	"dataColors": [
+		"#9B59B6",
+		"#48C9B0",
+		"#5DADE2",
+		"#F0B27A",
+		"#82E0AA",
+		"#F1948A",
+		"#D2B4DE",
+		"#AEB6BF"
+	],
+	"textClasses": {
+		"callout": {
+			"color": "#E8E8E8",
+			"fontFace": "Arial"
+		},
+		"header": {
+			"color": "#E8E8E8",
+			"fontFace": "Arial"
+		},
+		"label": {
+			"color": "#E8E8E8",
+			"fontFace": "Arial"
+		},
+		"largeTitle": {
+			"color": "#E8E8E8",
+			"fontFace": "Arial"
+		},
+		"title": {
+			"color": "#E8E8E8",
+			"fontFace": "Arial"
+		}
+	},
+	"bad": "#E74C3C",
+	"neutral": "#888888",
+	"good": "#48C9B0",
+	"maximum": "#D2B4DE",
+	"minimum": "#4A235A",
+	"center": "#9B59B6",
+	"tableAccent": "#9B59B6",
+	"firstLevelElements": "#E8E8E8",
+	"secondLevelElements": "#E8E8E8",
+	"thirdLevelElements": "#E8E8E8",
+	"fourthLevelElements": "#E8E8E8",
+	"background": "#121212",
+	"secondaryBackground": "#121212",
+	"visualStyles": {
+		"*": {
+			"*": {
+				"background": [
+					{
+						"color": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"border": [
+					{
+						"color": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"radius": 5,
+						"show": true,
+						"width": 0.5
+					}
+				],
+				"categoryAxis": [
+					{
+						"showAxisTitle": false
+					}
+				],
+				"divider": [
+					{
+						"show": false,
+						"width": 1
+					}
+				],
+				"dropShadow": [
+					{
+						"show": false,
+						"color": {
+							"solid": {
+								"color": "#0B0B0B"
+							}
+						},
+						"shadowBlur": 8,
+						"angle": 45,
+						"shadowDistance": 7,
+						"shadowSpread": 0,
+						"transparency": 70,
+						"position": "Outer",
+						"preset": "Custom"
+					}
+				],
+				"legend": [
+					{
+						"position": "TopCenter",
+						"showTitle": false,
+						"fontSize": 7
+					}
+				],
+				"padding": [
+					{
+						"top": 15
+					},
+					{
+						"bottom": 15
+					},
+					{
+						"left": 15
+					},
+					{
+						"right": 15
+					}
+				],
+				"spacing": [
+					{
+						"customizeSpacing": true,
+						"spaceBelowTitle": 10
+					}
+				],
+				"subTitle": [
+					{
+						"show": false,
+						"fontSize": 11
+					}
+				],
+				"title": [
+					{
+						"fontSize": 12,
+						"bold": true
+					}
+				],
+				"totals": [
+					{
+						"show": true,
+						"bold": true,
+						"fontSize": 7
+					}
+				],
+				"valueAxis": [
+					{
+						"gridlineShow": true,
+						"gridlineColor": {
+							"solid": {
+								"color": "#44444460"
+							}
+						},
+						"gridlineStyle": "dotted",
+						"gridlineThickness": 1,
+						"showAxisTitle": false
+					}
+				]
+			},
+			"Matched borders": {
+				"dataPoint": [
+					{
+						"borderColorMatchFill": true,
+						"borderShow": true,
+						"borderSize": 2,
+						"fillTransparency": 50,
+						"transparency": 60
+					}
+				],
+				"lineStyles": [
+					{
+						"lineChartType": "smooth",
+						"strokeWidth": 2,
+						"areaShow": true,
+						"areaMatchStrokeColor": true
+					}
+				],
+				"ribbonBands": [
+					{
+						"borderColorMatchFill": true,
+						"borderShow": true,
+						"borderSize": 1,
+						"fillTransparency": 80
+					}
+				]
+			}
+		},
+		"actionButton": {
+			"*": {
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"dropShadow": [
+					{
+						"show": false
+					}
+				],
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"transparency": 0
+					},
+					{
+						"$id": "hover",
+						"transparency": 97,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"transparency": 85,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						}
+					}
+				],
+				"outline": [
+					{
+						"show": false
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"roundEdge": 8
+					}
+				],
+				"text": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"text": "Some text",
+						"fontSize": 11,
+						"horizontalAlignment": "center",
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fontSize": 10.8
+					}
+				]
+			},
+			"Style 1": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"transparency": 100
+					},
+					{
+						"$id": "hover",
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 97
+					},
+					{
+						"$id": "selected",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 85
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 20
+					},
+					{
+						"$id": "selected",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 19
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"roundEdge": 8
+					}
+				],
+				"text": [
+					{
+						"$id": "default",
+						"leftMargin": 10
+					}
+				]
+			},
+			"Style 1 - active": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 90
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 20
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"roundEdge": 8
+					}
+				],
+				"text": [
+					{
+						"$id": "default",
+						"leftMargin": 10,
+						"fontSize": 11
+					}
+				]
+			},
+			"Style 2": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": false,
+						"transparency": 100
+					},
+					{
+						"$id": "hover",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 97
+					},
+					{
+						"$id": "selected",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 85
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"leftMargin": 6,
+						"shapeType": "custom",
+						"iconSize": 20
+					},
+					{
+						"$id": "selected",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"leftMargin": 7,
+						"shapeType": "custom",
+						"iconSize": 19.5
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangle",
+						"roundEdge": 100
+					}
+				],
+				"text": [
+					{
+						"show": false
+					}
+				]
+			},
+			"Style 2 - active": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 90
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"leftMargin": 6,
+						"shapeType": "custom",
+						"iconSize": 20
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangle",
+						"roundEdge": 100
+					}
+				],
+				"text": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"text": "Some text",
+						"fontSize": 11,
+						"leftMargin": 10,
+						"horizontalAlignment": "center",
+						"fontColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"text": "Some text",
+						"fontSize": 10.8
+					}
+				]
+			},
+			"Style 3": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"leftMargin": 6,
+						"shapeType": "custom",
+						"iconSize": 20
+					},
+					{
+						"$id": "selected",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 19
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangle",
+						"roundEdge": 5
+					}
+				],
+				"text": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"text": "Some text",
+						"fontSize": 11,
+						"leftMargin": 10,
+						"horizontalAlignment": "center",
+						"fontColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"text": "Some text",
+						"fontSize": 10.8
+					}
+				]
+			},
+			"Style 4": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 75
+					},
+					{
+						"$id": "hover",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 55
+					},
+					{
+						"$id": "selected",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 55
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 15,
+						"bottomMargin": 0,
+						"topMargin": 0,
+						"rightMargin": 0,
+						"leftMargin": 0
+					},
+					{
+						"$id": "selected",
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 14.5,
+						"bottomMargin": 0,
+						"topMargin": 0,
+						"rightMargin": 0,
+						"leftMargin": 0
+					}
+				],
+				"rotation": [
+					{
+						"shapeAngle": 90
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "tabRoundTopCorners",
+						"roundEdge": 90,
+						"tabRoundCornerTop": 50
+					}
+				],
+				"text": [
+					{
+						"show": false
+					}
+				]
+			},
+			"Style 4 - active": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 15,
+						"bottomMargin": 0,
+						"topMargin": 0,
+						"rightMargin": 0,
+						"leftMargin": 0
+					}
+				],
+				"rotation": [
+					{
+						"shapeAngle": 90
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "tabRoundTopCorners",
+						"roundEdge": 90,
+						"tabRoundCornerTop": 50
+					}
+				],
+				"text": [
+					{
+						"show": false
+					}
+				]
+			},
+			"Style 5": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 75
+					},
+					{
+						"$id": "hover",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 55
+					},
+					{
+						"$id": "selected",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 55
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 20,
+						"bottomMargin": 0,
+						"topMargin": 0,
+						"rightMargin": 0,
+						"leftMargin": 0
+					},
+					{
+						"$id": "selected",
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 14.5,
+						"bottomMargin": 0,
+						"topMargin": 0,
+						"rightMargin": 0,
+						"leftMargin": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "oval"
+					}
+				],
+				"text": [
+					{
+						"show": false
+					}
+				]
+			},
+			"Style 5 - active": {
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"show": true,
+						"fillColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"icon": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"placement": "custom",
+						"shapeType": "custom",
+						"iconSize": 20,
+						"bottomMargin": 0,
+						"topMargin": 0,
+						"rightMargin": 0,
+						"leftMargin": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "oval"
+					}
+				],
+				"text": [
+					{
+						"show": false
+					}
+				]
+			}
+		},
+		"advancedSlicerVisual": {
+			"*": {
+				"note": "This style is based on Kurt Buhler's post https://tabulareditor.com/blog/how-to-improve-a-month-slicer-for-your-power-bi-reports",
+				"accentBar": [
+					{
+						"$id": "default",
+						"show": true,
+						"width": 4,
+						"color": {
+							"solid": {
+								"color": "#9B59B6"
+							}
+						}
+					},
+					{
+						"$id": "interaction:hover",
+						"show": true,
+						"width": 5,
+						"color": {
+							"solid": {
+								"color": "#C39BD3"
+							}
+						}
+					},
+					{
+						"$id": "selection:selected",
+						"show": false
+					}
+				],
+				"background": [
+					{
+						"show": false
+					}
+				],
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"fillCustom": [
+					{
+						"$id": "default",
+						"fillColor": {
+							"solid": {
+								"color": "#1A1A1A"
+							}
+						},
+						"transparency": 0
+					},
+					{
+						"$id": "interaction:hover",
+						"fillColor": {
+							"solid": {
+								"color": "#9B59B6"
+							}
+						},
+						"transparency": 20
+					},
+					{
+						"$id": "selection:selected",
+						"fillColor": {
+							"solid": {
+								"color": "#9B59B6"
+							}
+						},
+						"transparency": 10
+					}
+				],
+				"layout": [
+					{
+						"style": "Cards"
+					}
+				],
+				"outline": [
+					{
+						"show": false
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0,
+						"left": 0,
+						"right": 0,
+						"top": 0
+					},
+					{
+						"$id": "default",
+						"paddingSelection": "Custom",
+						"bottomMargin": 0,
+						"leftMargin": 10,
+						"topMargin": 0,
+						"rightMargin": 0
+					}
+				],
+				"shapeCustomRectangle": [
+					{
+						"tileShape": "rectangleRoundedByPixel",
+						"rectangleRoundedCurve": 6
+					}
+				],
+				"value": [
+					{
+						"$id": "default",
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					},
+					{
+						"$id": "selection:selected",
+						"bold": true,
+						"fontColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					}
+				]
+			}
+		},
+		"barChart": {
+			"*": {
+				"legend": [
+					{
+						"show": false
+					}
+				]
+			},
+			"Matched borders": {}
+		},
+		"bookmarkNavigator": {
+			"*": {
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"dropShadow": [
+					{
+						"$id": "default",
+						"show": false
+					}
+				],
+				"fill": [
+					{
+						"$id": "default",
+						"fillColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"transparency": 50
+					},
+					{
+						"$id": "hover",
+						"fillColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fillColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"layout": [
+					{
+						"orientation": 2,
+						"cellPadding": 1
+					}
+				],
+				"outline": [
+					{
+						"$id": "default",
+						"show": false,
+						"lineColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"weight": 0.5
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0,
+						"left": 0,
+						"right": 0,
+						"top": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"rectangleRoundedCurve": 12,
+						"tileShape": "rectangleRounded"
+					}
+				],
+				"text": [
+					{
+						"$id": "default",
+						"fontSize": 8,
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					},
+					{
+						"$id": "hover",
+						"fontSize": 8,
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fontSize": 8,
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					}
+				]
+			}
+		},
+		"card": {
+			"*": {
+				"labels": [
+					{
+						"fontSize": 20
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				]
+			}
+		},
+		"cardVisual": {
+			"*": {
+				"accentBar": [
+					{
+						"$id": "default",
+						"show": true,
+						"width": 4,
+						"position": "Top",
+						"color": {
+							"solid": {
+								"color": "#888888"
+							}
+						}
+					}
+				],
+				"background": [
+					{
+						"show": true,
+						"color": {
+							"solid": {
+								"color": "#121212"
+							}
+						}
+					}
+				],
+				"border": [
+					{
+						"show": true
+					}
+				],
+				"divider": [
+					{
+						"$id": "default",
+						"show": true,
+						"dividerColor": {
+							"solid": {
+								"color": "#444444"
+							}
+						}
+					}
+				],
+				"dropShadow": [],
+				"image": [
+					{
+						"$id": "default",
+						"show": true,
+						"imageType": "imageData",
+						"position": "Left",
+						"padding": 10,
+						"imageAreaSize": 15
+					}
+				],
+				"label": [
+					{
+						"$id": "default",
+						"position": "aboveValue",
+						"fontSize": 10
+					}
+				],
+				"layout": [
+					{
+						"calloutSize": 60
+					},
+					{
+						"$id": "default",
+						"paddingUniform": 0
+					}
+				],
+				"outline": [
+					{
+						"$id": "default",
+						"show": false,
+						"transparency": 0,
+						"lineColor": {
+							"solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 9,
+											"Percent": 0.6
+										}
+									}
+								}
+							}
+						}
+					}
+				],
+				"padding": [
+					{
+						"$id": "default",
+						"paddingUniform": 4
+					},
+					{
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				],
+				"referenceLabel": [
+					{
+						"$id": "default",
+						"backgroundShow": true,
+						"backgroundColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"backgroundTransparency": 92.5,
+						"paddingUniform": 0
+					}
+				],
+				"referenceLabelLayout": [
+					{
+						"$id": "default",
+						"outerPadding": 3
+					}
+				],
+				"referenceLabelTitle": [
+					{
+						"$id": "default",
+						"titleFontSize": 9,
+						"titleTransparency": 10
+					}
+				],
+				"referenceLabelValue": [
+					{
+						"$id": "default",
+						"valueBold": false,
+						"valueFontSize": 9,
+						"valueTransparency": 10
+					}
+				],
+				"referenceLabelDetail": [
+					{
+						"$id": "default",
+						"detailFontSize": 9,
+						"detailTransparency": 90,
+						"show": true,
+						"detailBackgroundColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						},
+						"detailFontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					}
+				],
+				"shapeCustomRectangle": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"rectangleRoundedCurve": 7
+					}
+				],
+				"spacing": [
+					{
+						"$id": "default",
+						"verticalSpacing": 0
+					}
+				],
+				"subTitle": [
+					{
+						"show": false
+					}
+				],
+				"shadowCustom": [
+					{
+						"show": false,
+						"color": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					}
+				],
+				"title": [
+					{
+						"fontSize": 9,
+						"background": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"text": "Add visual title here"
+					}
+				],
+				"value": [
+					{
+						"$id": "default",
+						"fontSize": 13,
+						"horizontalAlignment": "left",
+						"bold": true
+					}
+				]
+			},
+			"Score card": {
+				"accentBar": [
+					{
+						"$id": "default",
+						"show": false
+					}
+				],
+				"divider": [
+					{
+						"show": false
+					}
+				],
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"image": [
+					{
+						"$id": "default",
+						"horizontalAlignment": "center",
+						"imageType": "imageUrl",
+						"position": "Right",
+						"show": true,
+						"size": 80,
+						"padding": 0
+					}
+				],
+				"label": [
+					{
+						"$id": "default",
+						"show": true,
+						"fontSize": 13
+					}
+				],
+				"layout": [
+					{
+						"orientation": 0,
+						"rowCount": 1,
+						"columnCount": 1
+					}
+				],
+				"value": [
+					{
+						"$id": "default",
+						"horizontalAlignment": "left",
+						"bold": false,
+						"fontSize": 25
+					}
+				]
+			}
+		},
+		"clusteredColumnChart": {
+			"*": {
+				"labels": [
+					{
+						"show": true,
+						"bold": true,
+						"fontSize": 7
+					}
+				]
+			}
+		},
+		"columnChart": {
+			"*": {
+				"legend": [
+					{
+						"show": false
+					}
+				]
+			},
+			"Matched borders": {}
+		},
+		"donutChart": {
+			"*": {
+				"legend": [
+					{
+						"show": false
+					}
+				],
+				"labels": [
+					{
+						"labelStyle": "Both"
+					}
+				]
+			}
+		},
+		"filledMap": {
+			"*": {
+				"mapStyles": [
+					{
+						"mapTheme": "grayscale"
+					}
+				]
+			}
+		},
+		"htmlContent443BE3AD55E043BF878BED274D3A6855": {
+			"*": {
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				]
+			}
+		},
+		"htmlContent443BE3AD55E043BF878BED274D3A6865": {
+			"*": {
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				]
+			}
+		},
+		"image": {
+			"*": {
+				"background": [
+					{
+						"show": false
+					}
+				],
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"dropShadow": [
+					{
+						"show": false
+					}
+				]
+			}
+		},
+		"lineChart": {
+			"*": {
+				"stylePreset": []
+			},
+			"Matched borders": {}
+		},
+		"page": {
+			"*": {
+				"background": [
+					{
+						"color": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"outspacePane": [
+					{
+						"backgroundColor": {
+							"solid": {
+								"color": "#1A1A1A"
+							}
+						}
+					}
+				],
+				"filterCard": [
+					{
+						"$id": "Available",
+						"backgroundColor": {
+							"solid": {
+								"color": "#1A1A1A"
+							}
+						},
+						"foregroundColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						},
+						"inputBoxColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"transparency": 0
+					},
+					{
+						"$id": "Applied",
+						"backgroundColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"foregroundColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						},
+						"inputBoxColor": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				"displayArea": [
+					{
+						"verticalAlignment": "Middle"
+					}
+				]
+			}
+		},
+		"pieChart": {
+			"*": {
+				"legend": [
+					{
+						"show": false
+					}
+				],
+				"labels": [
+					{
+						"labelStyle": "Both"
+					}
+				]
+			}
+		},
+		"pivotTable": {
+			"*": {
+				"columnHeaders": [
+					{
+						"backColor": {
+							"solid": {
+								"color": "#3333331A"
+							}
+						},
+						"autoSizeColumnWidth": false
+					}
+				],
+				"grid": [
+					{
+						"outlineColor": {
+							"solid": {
+								"color": {
+									"expr": {
+										"ThemeDataColor": {
+											"ColorId": 0,
+											"Percent": -0.2
+										}
+									}
+								}
+							}
+						},
+						"outlineWeight": 2,
+						"rowPadding": 5
+					}
+				],
+				"rowHeaders": [
+					{
+						"wordWrap": false
+					}
+				],
+				"stylePreset": [
+					{
+						"name": "Minimal"
+					}
+				],
+				"title": [
+					{
+						"show": true,
+						"text": "Table title"
+					}
+				]
+			}
+		},
+		"ribbonChart": {
+			"*": {},
+			"Matched borders": {
+				"dataPoint": [
+					{
+						"fillTransparency": 20
+					}
+				]
+			}
+		},
+		"scatterChart": {
+			"*": {
+				"legend": [
+					{
+						"show": true,
+						"position": "Left",
+						"fontSize": 8
+					}
+				],
+				"categoryAxis": [
+					{
+						"show": true,
+						"fontSize": 8
+					}
+				],
+				"valueAxis": [
+					{
+						"show": true,
+						"position": "Left",
+						"fontSize": 8
+					}
+				]
+			}
+		},
+		"shape": {
+			"*": {
+				"background": [
+					{
+						"show": true
+					}
+				],
+				"fill": [
+					{
+						"show": false
+					}
+				],
+				"outline": [
+					{
+						"show": false
+					}
+				],
+				"_comments": ""
+			}
+		},
+		"slicer": {
+			"*": {
+				"background": [
+					{
+						"show": false
+					}
+				],
+				"dropShadow": [
+					{
+						"show": false
+					}
+				],
+				"header": [
+					{
+						"show": false,
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						}
+					}
+				],
+				"items": [
+					{
+						"background": {
+							"solid": {
+								"color": "#1A1A1A"
+							}
+						},
+						"fontColor": {
+							"solid": {
+								"color": "#E8E8E8"
+							}
+						},
+						"outlineColor": {
+							"solid": {
+								"color": "#9B59B6"
+							}
+						},
+						"outlineWeight": 1
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				]
+			}
+		},
+		"stackedAreaChart": {
+			"*": {
+				"legend": [
+					{
+						"show": true,
+						"position": "Left",
+						"fontSize": 8
+					}
+				],
+				"categoryAxis": [
+					{
+						"show": true,
+						"fontSize": 8
+					}
+				],
+				"valueAxis": [
+					{
+						"show": true,
+						"position": "Left",
+						"fontSize": 8
+					}
+				]
+			}
+		},
+		"tableEx": {
+			"*": {
+				"columnHeaders": [
+					{
+						"backColor": {
+							"solid": {
+								"color": "#3333331A"
+							}
+						},
+						"autoSizeColumnWidth": false
+					}
+				],
+				"grid": [
+					{
+						"gridHorizontal": true,
+						"rowPadding": 3.5,
+						"outlineColor": {
+							"solid": {
+								"color": "#888888"
+							}
+						},
+						"outlineStyle": 1,
+						"outlineWeight": 0.5
+					}
+				],
+				"title": [
+					{
+						"show": true,
+						"text": "Table title"
+					}
+				],
+				"values": [
+					{
+						"backColorPrimary": {
+							"solid": {
+								"color": "#121212"
+							}
+						},
+						"backColorSecondary": {
+							"solid": {
+								"color": "#121212"
+							}
+						}
+					}
+				]
+			}
+		},
+		"textbox": {
+			"*": {
+				"background": [
+					{
+						"show": false
+					}
+				],
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"dropShadow": [
+					{
+						"show": false
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					},
+					{
+						"top": 0
+					}
+				]
+			}
+		},
+		"waterfallChart": {
+			"*": {
+				"legend": [
+					{
+						"show": false
+					}
+				]
+			}
+		}
+	}
+}
