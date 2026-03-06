@@ -17,8 +17,6 @@ bank_stocks.db
 # --- Local Parquet Export (regenerated on every run) ---
 datalake_export/
 
-# --- Power BI ---
-*.pbix
 
 # --- OS ---
 .DS_Store
